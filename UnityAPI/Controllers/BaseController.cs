@@ -12,7 +12,7 @@ namespace UnityAPI.Controllers
 
         public BaseController(BaseManager manager)
         {
-            this._manager = manager ?? new BaseManager(new BaseService());
+            _manager = manager ?? new BaseManager(new BaseService());
             _responseModel = new ResponseModel
             {
                 OpCode = -1,

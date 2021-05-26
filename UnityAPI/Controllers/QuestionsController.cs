@@ -58,7 +58,7 @@ namespace UnityAPI.Controllers
             return rModel;
         }
 
-        // GET api/Questions/Params?ageGroupId=1&typeId=2
+        // GET api/Questions/Params?ageGroupId=1&typeId=1&categoryId=3&tagId=0
         [HttpGet("Params/")]
         public ResponseModel Get(int ageGroupId, int typeId, int categoryId, int tagId)
         {
